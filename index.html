@@ -421,10 +421,10 @@ tfoot td:first-child,tfoot td:nth-child(2){
         <div class="input-group">
           <div class="input-label">
             Pokok Hutang (Rp)
-            <span class="input-value-badge" id="phBadge">270.700.000</span>
+            <span class="input-value-badge" id="phBadge">100000000</span>
           </div>
-          <input class="styled-input" type="text" id="phInput" value="270700000"
-            oninput="syncPH(this.value)" placeholder="Contoh: 270700000" />
+          <input class="styled-input" type="text" id="phInput" value="100000000"
+            oninput="syncPH(this.value)" placeholder="Contoh: 100000000" />
           <div class="slider-wrap">
             <input type="range" id="phSlider" min="10000000" max="2000000000" step="5000000"
               value="270700000" oninput="syncPHSlider(this.value)" />
@@ -477,6 +477,7 @@ tfoot td:first-child,tfoot td:nth-child(2){
             <button class="yr-btn" onclick="setTenor(36)">3 Th</button>
             <button class="yr-btn" onclick="setTenor(48)">4 Th</button>
             <button class="yr-btn" onclick="setTenor(60)">5 Th</button>
+            <button class="yr-btn" onclick="setTenor(72)">6 Th</button>
             <button class="yr-btn active" onclick="setTenor(84)">7 Th</button>
           </div>
           <div class="slider-wrap">
